@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+
+<body>
+    <h1>To Do List</h1>
+    <form action="/action_page.php">
+
+        <div>
+            <span class="caption">My task is :</span>
+            <textarea rows="1" cols="30" required name="theTaskIs" class="inputs" id="inputN1"></textarea>
+        </div>
+
+
+        <div>
+            <span class="caption">when:</span>
+            <input type="date" name="taskDate" class="inputs" id="inputN2">
+        </div>
+
+        <div>
+            <span class="caption">time:</span>
+            <input type="time" name="taskTime" class="inputs" id="inputN3">
+        </div>
+
+        <button type="button" onclick="addTask()" class="savebtn">Add Task</button>
+        <button type="reset" onclick="resetTask()" class="resetbtn">Reset</button>
+    </form>
+    <div class="showTheTask"></div>
+
+    <script src="project1.js"></script>
+</body>
+
+</html>
