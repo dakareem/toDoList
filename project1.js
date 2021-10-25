@@ -10,10 +10,21 @@ function addTask() {
         taskDate: taskDate,
         taskTime: taskTime,
     }
+    if (theTaskIs === "" || taskDate === "" || taskTime === "") {
+        const error = document.createElement("div")
+        error.classList.add("error")
+        error.innerHTML = "You must fill in all the fields!"
+        form.appendChild(error)
+        setTimeout(function () {
+            error.remove()
+        }, 500)
+    }
+    else {
 
-    tasks.push(task)
-    console.log(tasks)
-    addTaskToPage(task)
+        tasks.push(task)
+        console.log(tasks)
+        addTaskToPage(task)
+    }
 }
 
 
