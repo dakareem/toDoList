@@ -1,0 +1,120 @@
+body {
+    background-image: url("p.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 270%;
+    color: rgb(255, 217, 0);
+}
+
+form {
+    max-width: 100px;
+    padding: 30px 190px;
+    padding-left: 90px;
+    border-radius: 25px;
+    text-align: left;
+    display: inline-flexbox;
+    margin: 30px auto;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.inputs {
+    border-radius: 12px;
+    border: 1;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 50%;
+    padding: 4px 20px 0;
+    width: 200px;
+    text-align: center;
+}
+
+textarea {
+    overflow: hidden;
+}
+
+.savebtn,
+.resetbtn {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 15px;
+    height: 40px;
+    margin-top: 11px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.caption {
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    color: rgb(3, 113, 182);
+}
+
+.deleteButton {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 11px;
+    outline: 0;
+    text-align: center;
+    width: 50%;
+}
+
+span {
+    font-size: 20px;
+    text-align: center;
+}
+
+.taskDetails {
+    border: outset black;
+    width: 150px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 5px 4px 4px black;
+
+}
+
+.theTaskIs,
+.taskDate,
+.taskTime {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.theTaskIs {
+    overflow-y: scroll;
+}
+
+.resetbtn:hover,
+.savebtn:hover,
+.deleteButton:hover {
+    background-color: #3e8e41;
+    color: white;
+
+}
+
+/* .showTheTask {
+    /* animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    } */
