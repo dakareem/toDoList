@@ -106,6 +106,10 @@ span {
 
 }
 
+.error {
+    font-size: 15px;
+}
+
 /* .showTheTask {
     /* animation: fadeIn 5s;
 }
